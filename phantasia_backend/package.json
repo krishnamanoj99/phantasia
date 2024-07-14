@@ -4,7 +4,8 @@
   "description": "This contains the backend code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm rebuild bcrypt"
   },
   "author": "Krishna Manoj",
   "license": "ISC",
