@@ -57,7 +57,7 @@ router.get(
     }
 );
 
-// Add a song to a playlist
+// Add a pin to saved
 router.post(
     "/add/pin",
     passport.authenticate("jwt", {session: false}),
